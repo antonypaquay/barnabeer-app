@@ -8,12 +8,13 @@
 
 <div>
     <h3>Ajouter une bière à la liste</h3>
-    <input type="text" placeholder="nom d'une bière"/>
+    <input type="text" id="myInput" placeholder="nom d'une bière"/>
+    <span onclick="newElement()">add</span>
 </div>
 
 <div>
     <h3>Toutes les bières en bouteils</h3>
-    <ul class="beers">
+    <ul class="beers" id="myUL">
         <li class="beer">Jupiler</li>
         <li class="beer">Maes</li>
         <li class="beer">Leffe</li>
