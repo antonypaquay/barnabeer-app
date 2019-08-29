@@ -2,6 +2,13 @@
   Layout style
 ---------------------------------*/
 
+header {
+  width: 100%;
+  position: fixed;
+  background-color: $black;
+  z-index: 9999;
+}
+
 .checked {
   background-color: red;
 }

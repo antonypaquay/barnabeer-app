@@ -2,5 +2,30 @@
   Site settings
 ---------------------------------*/
 
-// Fonts
 // Colors
+$gold: #c1a072;
+$light-gold: #C39871;
+$extra-light-gold: #d8d1af;
+$black: #1c1c1c;
+$gray: #212121;
+$white: #F2F3F3;
+$alert: rgb(150, 12, 12);
+$placeholder: rgb(73, 72, 72);
+
+// Fonts
+$playfair: 'Playfair Display', serif;
+$opensans: 'Open Sans', sans-serif;
+
+h1, h2, h3, h4, p, span, label, legend {
+  color: $white;
+}
+
+h1, h2, h3 {
+  font-family: $playfair;
+}
+
+p {
+  font-family: $opensans;
+}
+
+

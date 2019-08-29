@@ -23,9 +23,12 @@
 @import "base/base";
 /* Modules */
 @import "modules/buttons";
+@import "modules/form";
+@import "modules/beers-list";
 /* Layout */
 @import "layouts/header";
 @import "layouts/footer";
+@import "layouts/section-card";
 /* Vendor */
 @import "vendors/outdatedbrowser";
 /* SHAME */
