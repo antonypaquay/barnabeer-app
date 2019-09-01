@@ -144,9 +144,9 @@ function newElement(beerName, beerType, beerPrice, beerAlcool, beerQuantity) {
   li.appendChild(beerAlcoolElt);
   li.appendChild(beerQuantityElt);
 
-  // if (beerName === "") {
-  //   alert("You must write something!");
-  // } else {
+  if (beerName === "") {
+    alert("You must write something!");
+  } else {
     var beerList = document.getElementById("myUL");
     beerList.appendChild(li);
 
@@ -166,7 +166,7 @@ function newElement(beerName, beerType, beerPrice, beerAlcool, beerQuantity) {
     );
     console.log(allBeers);
     allBeers.push(beerDetails);
-  // }
+  }
 
   // set the updated array to database
   firebase
